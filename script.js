@@ -1,4 +1,5 @@
 //your code here
+function myage(){
 let p=fetch("https://randomuser.me/api/");
 p.then(data=>{
  console.log(data);
@@ -6,5 +7,5 @@ p.then(data=>{
 })
 .then(data=>{
 	console.log(data);
-})
 const ans=data;
+	document.getElementById('age').value=
