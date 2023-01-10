@@ -1,4 +1,3 @@
-//your code here
 function myage(){
 let p=fetch("https://randomuser.me/api/");
 p.then(data=>{
