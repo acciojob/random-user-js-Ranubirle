@@ -8,4 +8,6 @@ p.then(data=>{
 .then(data=>{
 	console.log(data);
 const ans=data;
-	document.getElementById('age').value=
+	
+		})
+}
