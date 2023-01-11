@@ -1,5 +1,5 @@
 function myage(){
-	let p=document.getElementById('A').value;
+	let p=document.getElementById('A');
  p =fetch("https://randomuser.me/api/");
 p.then(data=>{
  console.log(data);
