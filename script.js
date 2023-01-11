@@ -8,7 +8,7 @@ p.then(data=>{
 .then(data=>{
 	console.log(data);
 	let info=data;
-	document.getElementById('age1').innertext=info.result[0].dob.age;
+	document.getElementById('age1').innertext=info.results[0].dob[0].age;
 	
 	
 
