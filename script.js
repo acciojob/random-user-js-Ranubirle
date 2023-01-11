@@ -1,5 +1,6 @@
 function myage(){
-let p=fetch("https://randomuser.me/api/");
+	let p=docuemnt.getElementById('A')
+ p=fetch("https://randomuser.me/api/");
 p.then(data=>{
  
 	return data.json();
