@@ -14,6 +14,6 @@ p.then(data=>{
 	
 		})
 }
-
+myage();
 
 
